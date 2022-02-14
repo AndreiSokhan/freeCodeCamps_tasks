@@ -36,8 +36,12 @@ let myStr = "Learning to code is ";
 myStr += someAdjective;
 
 //31.
+// Setup
+let lastNameLength = 0;
+const lastName = "Lovelace";
 
-
+// Only change code below this line
+lastNameLength = lastName.length;
 
 //32.
 // Setup
@@ -75,3 +79,4 @@ const lastName = "Lovelace";
 
 // Only change code below this line
 const secondToLastLetterOfLastName = lastName[lastName.length - 2]; // Change this line
+
